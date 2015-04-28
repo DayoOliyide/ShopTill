@@ -18,6 +18,18 @@ Items are priced as follows:
 ## Pre-requisite
 You need Java 8 installed on your system
 
+## To run Tests
+
+   For Linux users run
+```
+./gradlew  test
+```
+
+   For Windows users run
+```
+gradlew.bat  test
+```
+
 ## Installing
 
 - Git clone this project i.e ``` git clone https://github.com/DayoOliyide/ShopTill.git ```
@@ -32,19 +44,9 @@ You need Java 8 installed on your system
 ```
 gradlew.bat clean jar
 ```
+
 - You should now end up with a jar in the ./builds/lib directory
 
-## To run Tests
-
-   For Linux users run
-```
-./gradlew clean test
-```
-
-   For Windows users run
-```
-gradlew.bat clean test
-```
 
 ## Usage
 
