@@ -34,13 +34,21 @@ gradlew.bat jar
 ```
 - You should now end up with a jar in the ./builds/lib directory
 
+## Usage
 
-### To Start
+### Programmatically
+- Create an instance of io.superstore.ShopTill.
+- Create and set it's needed services. (See the contents of io.superstore.ShopTill.main() minus the start())
+- Pass a List of Itemnames, via the io.superstore.ShopTill.calculateShoppingList() method, to get the total price.
+
+### To Start via console
 Type  ``` java -jar build/libs/ShopTill-1.0-SNAPSHOT.jar ``` to bring up the console
+
+To pass the List of names via the console simply enter each item name with space in between.
 
 *Just hit the return key to exit*
 
-### To Enter a shopping list
+### To Enter a shopping list via console
 `[item] [item]`
 
 >\> Apple Apple Melon
