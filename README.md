@@ -34,8 +34,7 @@ gradlew.bat jar
 ```
 - You should now end up with a jar in the ./builds/lib directory
 
-## Usage
-Users are created automatically, so you don't need to create them.
+
 ### To Start
 Type  ``` java -jar build/libs/ShopTill-1.0-SNAPSHOT.jar ``` to bring up the console
 
