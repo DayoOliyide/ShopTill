@@ -16,7 +16,7 @@ Items are priced as follows:
 - Limes are 15p each, but are available in a "three for the price two" offer
 
 ## Pre-requisite
-You need at least Java 7 installed on your system
+You need Java 8 installed on your system
 
 ## Installing
 
@@ -25,14 +25,26 @@ You need at least Java 7 installed on your system
 
    For Linux users run
 ```
-./gradlew jar
+./gradlew clean jar
 ```
 
    For Windows users run
 ```
-gradlew.bat jar
+gradlew.bat clean jar
 ```
 - You should now end up with a jar in the ./builds/lib directory
+
+## To run Tests
+
+   For Linux users run
+```
+./gradlew clean test
+```
+
+   For Windows users run
+```
+gradlew.bat clean test
+```
 
 ## Usage
 
