@@ -68,8 +68,8 @@ public class ShopTill
                 "Items are priced as follows:\n" +
                 "                            - Apples are 35p each\n" +
                 "                            - Bananas are 20p each\n" +
-                "                            - Melons are 50p each, but are available as buy one get one free\n" +
-                "                            - Limes are 15p each, but are available in a three for the price two offer\n" +
+                "                            - Melons are 50p each, but are available as \"buy one get one free\"\n" +
+                "                            - Limes are 15p each, but are available in a \"three for the price two\" offer\n" +
                 "RECOGNIZED ITEMS -> Apple Banana Melon Lime\n" ;
         System.out.println(usage);
     }
